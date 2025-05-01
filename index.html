@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9; /* Light background for better readability */
+        }
+        header {
+            background: #2c3e50; /* Dark blue-gray */
+            color: #ecf0f1; /* Light gray */
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 0.5rem;
+        }
+        nav a {
+            color: #ecf0f1; /* Light gray */
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            color: #f39c12; /* Orange for hover effect */
+        }
+        .hero {
+            background: #3498db; /* Light blue */
+            color: #fff; /* White text */
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .hero h2 {
+            margin: 0;
+        }
+        .section {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff; /* White background for sections */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        h2 {
+            text-align: center; /* Center all section titles */
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            text-align: center; /* Center the skills list */
+        }
+        .skills li {
+            background: linear-gradient(90deg, #e67e22, #f39c12); /* Gradient design for skill bars */
+            color: #fff; /* White text */
+            margin: 0.5rem auto; /* Center each skill bar */
+            padding: 0.5rem;
+            border-radius: 5px;
+            max-width: 300px; /* Resize skill bars */
+            text-align: center;
+        }
+        .photo {
+            text-align: center; /* Center the photo */
+            margin-top: 2rem;
+        }
+        .photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid #2c3e50; /* Dark blue-gray border */
+        }
+        #resume h2, #resume h3 {
+            color: #2c3e50; /* Dark blue-gray for headings */
+        }
+        #resume ul li {
+            margin-bottom: 1rem;
+        }
+        #resume ul li ul li {
+            color: #7f8c8d; /* Gray for sub-items */
+        }
+        footer {
+            background: #2c3e50; /* Dark blue-gray */
+            color: #ecf0f1; /* Light gray */
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Terrence Scott</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#photo">Photo</a>
+            <a href="#resume">Resume</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Discover more about me and my journey in data science.</p>
+    </section>
+
+    <section id="about" class="section">
+        <div class="photo">
+            <img src="/Users/tjscott/Desktop/my-portfolio/IMG_0703.jpg" alt="Terrence Scott's Photo" style="max-width: 200px; height: auto; border-radius: 50%; border: 2px solid #2c3e50; margin-bottom: 10px;">
+        </div>
+        <h2>About Me</h2>
+        <p>Hi there! I'm Terrence Scott, an aspiring data scientist with a background in software engineering, analytics, and machine learning. I am passionate about uncovering insights from data, solving complex problems, creating impactful solutions, and fostering collaboration through teamwork and leadership.</p>
+    </section>
+
+    <section id="skills" class="section skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Data Visualization</li>
+            <li>SQL</li>
+            <li>Big Data Tools</li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p><strong>Terrence Jay Scott</strong><br>Oakland, CA<br>
+        <a href="https://www.linkedin.com/in/terrencejay23" target="_blank">www.linkedin.com/in/terrencejay23</a></p>
+        <h3>Experience</h3>
+        <ul>
+            <li><strong>Wells Fargo - Python Software Engineer</strong> (September 2023 – December 2023)
+                <ul>
+                    <li>Developed and implemented automated data manipulation programs, enhancing data streaming and reporting efficiency, showcasing strong Python development skills.</li>
+                    <li>Refactored legacy programming code to improve turn-around-times and leveraged modern technologies to optimize performance for derivative and marginal agreements technology teams.</li>
+                </ul>
+            </li>
+            <li><strong>Accenture - Data Scientist Consultant</strong> (April 2021 – May 2022)
+                <ul>
+                    <li>Managed 5 teams of 50+ employees in Program Management/Scrum/Agile processes using Azure DevOps.</li>
+                    <li>Created a Model Development Life Cycle framework to manage the complexity of model development into Agile processes.</li>
+                    <li>Designed and implemented machine learning strategies for healthcare, demonstrating strong proficiency in Python/PySpark.</li>
+                    <li>Created automated Python notebooks to analyze data and improve reporting efficiency.</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Education</h3>
+        <ul>
+            <li><strong>University of Phoenix</strong> - MS, Data Science (Expected: May 2026)</li>
+            <li><strong>University of Phoenix</strong> - BS, Information Technology (August 2023)</li>
+            <li><strong>New York University Tandon School of Engineering</strong> - Veteran Entrepreneurship Training (2023)</li>
+            <li><strong>Product School</strong> - Product Management Certification (February 2020)</li>
+            <li><strong>New York Institute of Technology</strong> - BS, Interdisciplinary Studies (May 2016)</li>
+        </ul>
+        <h3>Skills</h3>
+        <ul>
+            <li><strong>Programming Languages & Tools:</strong> Python, PySpark, Java, SQL, C++, Swift, HTML5, CSS, JavaScript, C#, Pandas, NumPy</li>
+            <li><strong>Databases & Cloud Technologies:</strong> MySQL, MongoDB, Splunk, SQL, Cassandra, SQLite, Azure, AWS, Google Cloud, Databricks</li>
+            <li><strong>Data Engineering & Analytics:</strong> Machine Learning, Statistical Modeling, Data Integration, A/B Testing, Hadoop, Hive, Presto, Spark</li>
+            <li><strong>DevOps & Data Operations:</strong> GitHub, Apache Airflow, Azure DevOps, Jira</li>
+            <li><strong>Soft Skills:</strong> Innovative problem-solving, self-motivation, effective communication, teamwork</li>
+        </ul>
+    </section>
+</body>
+</html>
