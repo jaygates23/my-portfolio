@@ -234,6 +234,64 @@
                 transform: rotate(360deg);
             }
         }
+
+        /* Responsive formatting for mobile phones */
+        @media (max-width: 768px) {
+            header {
+                padding: 0.5rem 0;
+            }
+            nav a {
+                margin: 0 0.5rem;
+                font-size: 0.9rem;
+            }
+            .hero {
+                padding: 2rem 1rem;
+            }
+            .section {
+                padding: 1.5rem 1rem;
+            }
+            .skills-hero ul li {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.9rem;
+            }
+            .info-box {
+                max-width: 100%; /* Full width for smaller screens */
+                padding: 1rem;
+            }
+            .photo img {
+                max-width: 150px; /* Smaller photo size */
+            }
+            #resume {
+                padding: 1.5rem;
+            }
+            footer {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            nav a {
+                font-size: 0.8rem;
+            }
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .info-box h4 {
+                font-size: 1rem;
+            }
+            .info-box p {
+                font-size: 0.8rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -258,7 +316,7 @@
 
     <section id="about" class="section">
         <div class="photo">
-            <img src="assets/IMG_0703.jpg" alt="Terrence Scott's Photo" style="max-width: 200px; height: auto; border-radius: 50%; border: 2px solid #2c3e50; margin-bottom: 10px;">
+            <img src="/assets/IMG_0703.jpg" alt="Terrence Scott's Photo" style="max-width: 200px; height: auto; border-radius: 50%; border: 2px solid #2c3e50; margin-bottom: 10px;">
         </div>
         <h2>About Me</h2>
         <p>Hi, I’m Terrence Scott — a data science enthusiast with a background in software engineering, analytics, and machine learning. I’m passionate about turning raw data into meaningful insights, solving real-world problems, and building solutions that make a difference.</p>
