@@ -36,7 +36,7 @@
             transition: color 0.3s ease, text-decoration 0.3s ease;
         }
         .hero {
-            background: url('assets/main image.jpeg') no-repeat center center fixed; /* Use the specified main image */
+            background: url('assets/main_port.png') no-repeat center center fixed; /* Updated image */
             background-size: cover; /* Ensure the background covers the entire section */
             color: #fff; /* White text */
             text-align: center;
@@ -125,17 +125,19 @@
             border: 3px solid #2c3e50; /* Dark blue-gray border */
         }
         #resume {
-            background: #fdfdfd; /* Off-white background for a paper-like feel */
+            background: linear-gradient(135deg, #ede7f6, #b39ddb); /* Cool purple gradient */
+            color: #4a148c; /* Deep purple text for contrast */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            padding: 2rem 1rem;
             font-family: 'Georgia', serif; /* Serif font for a classic look */
-            padding: 2rem;
             border: 1px solid #dcdcdc; /* Light gray border for a subtle frame */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
             background-image: linear-gradient(white 1px, transparent 1px), linear-gradient(to right, white 1px, transparent 1px);
             background-size: 10px 10px; /* Fine grid pattern for texture */
         }
         #resume h2, #resume h3 {
             font-family: 'Georgia', serif; /* Match the font style */
-            color: #2c3e50; /* Dark blue-gray for headings */
+            color: #6a1b9a; /* Slightly darker purple for headings */
             text-align: center; /* Center-align headings */
         }
         #resume ul {
@@ -149,6 +151,16 @@
         #resume ul li ul li {
             color: #7f8c8d; /* Gray for sub-items */
             font-size: 0.95rem; /* Slightly smaller font for sub-items */
+        }
+        #projects {
+            background: linear-gradient(135deg, #e0f7fa, #80deea); /* Cool blue gradient */
+            color: #004d40; /* Dark teal text for contrast */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            padding: 2rem 1rem;
+        }
+        #projects h2 {
+            color: #006064; /* Slightly darker teal for headings */
         }
         footer {
             background: #2c3e50; /* Dark blue-gray */
@@ -365,24 +377,41 @@
             <li>
                 <strong><a href="https://github.com/jaygates23/tripleten_projects/blob/main/Triple%20Ten%20Projects/Sprint_1_project.ipynb" target="_blank">Sprint 1:</a></strong> Working with Data in Python
                 <div class="project-description">
-                    <p>Description: Basic Python/Pandas Introduction Project</p>
+                    <p>📽️ Movie & TV Show Data Analysis with Pandas</p>
+                    <p><strong>Python | Pandas | Data Cleaning | Exploratory Data Analysis</strong></p>
+                    <p>In this project, I explored a dataset containing information on movies and TV shows. Using the pandas library, I read, cleaned, and analyzed the data to uncover insights such as content distribution by type, release year trends, and popular genres. This project strengthened my skills in working with DataFrames, handling missing data, indexing, filtering, and performing key data manipulation tasks. The final analysis provides a clear, structured summary of content trends in the entertainment industry.</p>
                 </div>
             </li>
             <li>
                 <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/main/Triple%20Ten%20Projects/sprint_2" target="_blank">Sprint 2:</a></strong> Exploratory Data Analysis (EDA)
                 <div class="project-description">
-                    <p>Description: EDA process covering InstaCart 2018 data</p>
+                    <p>🛒 Grocery Shopping Behavior Analysis – Instacart Dataset</p>
+                    <p><strong>Python | Pandas | Data Analysis | Data Visualization | Consumer Insights</strong></p>
+                    <p>In this project, I analyzed the Instacart dataset to uncover patterns in customer grocery shopping behavior. Using pandas for data manipulation and exploratory analysis, I identified key trends in shopping times, days of the week, reorder habits, and product preferences. Insights included peak shopping hours, high-demand days (Sunday & Monday), frequent reorders of fresh produce (bananas, spinach, avocados), and common cart behaviors. This project demonstrates my ability to derive actionable business insights from large datasets to support inventory planning, targeted marketing, and operational efficiency.</p>
                 </div>
             </li>
             <li>
-                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/main/Triple%20Ten%20Projects/sprint3" target="_blank">Sprint 3:</a></strong> Statistical Data Analysis(SDA)
+                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/main/Triple%20Ten%20Projects/sprint3" target="_blank">Sprint 3:</a></strong> Statistical Data Analysis (SDA)
                 <div class="project-description">
-                    <p>Description: SDA project covering Megaline Cell consumers 2018</p>
+                    <p>📈 Revenue Attribution Analysis – Megaline Prepaid Plans</p>
+                    <p><strong>Python | Pandas | Statistical Testing | Data Analysis | Business Strategy</strong></p>
+                    <p>In this project, I conducted a comprehensive revenue attribution analysis for Megaline’s two prepaid mobile plans — Surf and Ultimate. Using pandas for data manipulation and hypothesis testing, I uncovered that the Surf plan consistently generated higher revenue, primarily through overage charges, despite having a lower base price than the Ultimate plan.</p>
+                    <p>Key insights included seasonal revenue spikes, high user engagement on the Surf plan, and no significant revenue variation across geographic regions. Hypothesis testing validated that Surf users generated significantly more revenue than Ultimate users (p < 0.001), while churned users showed no meaningful difference in revenue compared to active users.</p>
+                    <p>Based on these insights, I recommended reallocating marketing efforts toward high-engagement Surf customers and implementing targeted upsell strategies. This analysis highlights my ability to translate complex data into actionable business strategies that drive growth and customer value.</p>
+                </div>
+            </li>
+            <li>
+                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/main/Triple%20Ten%20Projects/Sprint%205" target="_blank">Project: Video Game Sales Forecasting</a></strong>
+                <div class="project-description">
+                    <p>🎮 Global Video Game Market Analysis – ICE</p>
+                    <p><strong>Python | Pandas | Statistical Analysis | Data Visualization | Market Research</strong></p>
+                    <p>In this project with ICE, I analyzed global video game performance data to uncover patterns across platforms, genres, and regions. Using pandas for data manipulation and hypothesis testing, I examined regional sales trends, genre popularity, and the influence of ESRB ratings on market success.</p>
+                    <p>Key findings revealed that Action games, while generating high global sales, had low median performance, indicating a high-risk, high-reward genre. Shooter and Role-Playing games demonstrated stronger consistency across markets, with regional dominance varying: PS4/Xbox One in the West, PC in Europe, and PSP in Japan. Hypothesis tests confirmed no significant difference in user ratings between Xbox One and PC titles, but found a significant rating gap between Action and Sports games (p < 0.001).</p>
+                    <p>These insights inform targeted publishing strategies, regional marketing focus, and content investment decisions. This project highlights my ability to transform market data into actionable intelligence for business growth in the interactive entertainment industry.</p>
                 </div>
             </li>
             <li><strong>Upcoming:</strong></li>
             <ul>
-                <li><strong>Sprint 5:</strong> Project: Video Game Sales Forecasting</li>
                 <li><strong>Sprint 6:</strong> Data Collection and Storage (SQL)</li>
                 <li><strong>Sprint 7:</strong> Introduction to Machine Learning</li>
                 <li><strong>Sprint 8:</strong> Supervised Learning</li>
