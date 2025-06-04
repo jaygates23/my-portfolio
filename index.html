@@ -36,8 +36,9 @@
             transition: color 0.3s ease, text-decoration 0.3s ease;
         }
         .hero {
-            background: url('assets/main_port.png') no-repeat center center fixed; /* Updated image */
-            background-size: cover; /* Ensure the background covers the entire section */
+            background: url('assets/main_port.png') no-repeat center center fixed;
+            background-size: contain; /* Adjust image size to fit neatly */
+            height: 100vh; /* Ensure the hero section takes up the full viewport height */
             color: #fff; /* White text */
             text-align: center;
             padding: 4rem 1rem; /* Increase padding for better visibility */
@@ -257,6 +258,8 @@
                 font-size: 0.9rem;
             }
             .hero {
+                background-size: cover; /* Use cover for smaller screens */
+                height: auto; /* Adjust height for smaller screens */
                 padding: 2rem 1rem;
                 background-attachment: scroll; /* Disable parallax effect for better performance */
             }
