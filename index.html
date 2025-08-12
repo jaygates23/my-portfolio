@@ -38,10 +38,10 @@
         .hero {
             background: url('assets/main_port.png') no-repeat center center fixed;
             background-size: contain; /* Adjust image size to fit neatly */
-            height: 85vh; /* Reduce height by 15% */
+            height: 60vh; /* Reduce height to 60% of the viewport */
             color: #fff; /* White text */
             text-align: center;
-            padding: 4rem 1rem; /* Increase padding for better visibility */
+            padding: 2rem 1rem; /* Reduce padding for better visibility */
             position: relative;
             background-attachment: fixed; /* Parallax effect */
         }
@@ -162,6 +162,42 @@
         }
         #projects h2 {
             color: #006064; /* Slightly darker teal for headings */
+        }
+        #ai-projects-books {
+            background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* Light purple gradient */
+            color: #4a148c; /* Deep purple text for contrast */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            padding: 2rem 1rem;
+        }
+        #ai-projects-books h2 {
+            color: #6a1b9a; /* Slightly darker purple for headings */
+            text-align: center;
+        }
+        #ai-projects-books ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0;
+        }
+        #ai-projects-books ul li {
+            margin-bottom: 1.5rem;
+            line-height: 1.8; /* Increase line spacing for readability */
+            background: #ffffff; /* White background for items */
+            border: 2px solid #ce93d8; /* Light purple border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        #ai-projects-books ul li a {
+            color: #4a148c; /* Deep purple for links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #ai-projects-books ul li a:hover {
+            color: #8e24aa; /* Brighter purple on hover */
+            text-decoration: underline;
+        }
+        #ai-projects-books ul li p {
+            margin: 0.5rem 0;
         }
         footer {
             background: #2c3e50; /* Dark blue-gray */
@@ -336,6 +372,7 @@
             <a href="#about">About Me</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#ai-projects-books">AI Projects</a> <!-- Added AI Projects link -->
             <a href="#resume">Resume</a>
         </nav>
     </header>
@@ -344,9 +381,6 @@
         <h2 style="font-size: 2.5rem; font-weight: 700; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); color: #f1c40f;">
             👋 Welcome to My Data Science Portfolio!
         </h2>
-        <p style="font-size: 1.2rem; font-style: italic; color: #ffffff; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);">
-            Dive into a collection of projects that showcase my expertise in analytics, machine learning, and software engineering. Discover how I transform data into actionable insights and innovative solutions.
-        </p>
         <p style="font-size: 1rem; color: #ffffff; margin-top: 1rem;">
             📬 <a href="mailto:terrencejay23@gmail.com" style="color: #f1c40f; text-decoration: none;">terrencejay23@gmail.com</a>
         </p>
@@ -365,6 +399,9 @@
             <a href="#projects" style="background: #f39c12; color: #fff; padding: 0.8rem 1.5rem; border-radius: 5px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
                 View My Projects
             </a>
+            <a href="#ai-projects-books" style="background: #8e24aa; color: #fff; padding: 0.8rem 1.5rem; border-radius: 5px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); margin-left: 1rem; transition: transform 0.3s ease;">
+                AI Projects
+            </a> <!-- Added AI Projects button -->
         </div>
     </section>
 
@@ -442,7 +479,7 @@
                 </div>
             </li>
             <li>
-                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/db840544e7c14095872263d44df0d46ea690a37e/Triple%20Ten%20Projects/Sprint%207" target="_blank">Sprint 7:</a></strong> Introduction to Machine Learning
+                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/main/Triple%20Ten%20Projects/Sprint%207" target="_blank">Sprint 7:</a></strong> Introduction to Machine Learning
                 <p>📱 Mobile Plan Recommendation System – Megaline</p>
 
                 <p><strong>Python | Pandas | Scikit-learn | Gradient Boosting | Random Forest | Logistic Regression | Data Preprocessing | Model Evaluation | Matplotlib | Seaborn</strong></p>
@@ -454,7 +491,7 @@
                 <p>These insights enable Megaline to provide data-driven plan recommendations, supporting their customer migration strategy and enhancing user satisfaction. This project highlights my ability to build and evaluate machine learning models to solve real-world business challenges.</p>
             </li>
             <li>
-                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/be55bda2d171b0409dff07e7b17f7d473778fb97/Triple%20Ten%20Projects/Sprint%208" target="_blank">Sprint 8:</a></strong> Supervised Learning
+                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/main/Triple%20Ten%20Projects/Sprint%208" target="_blank">Sprint 8:</a></strong> Supervised Learning
                 <div class="project-description"></div>
                 <p>📊 Customer Churn Prediction – Beta Bank</p>
 
@@ -466,7 +503,7 @@
                 </div>
             </li>
             <li>
-                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/11466276d95086279a10755315728e8a7fad3c4f/Triple%20Ten%20Projects/Sprint%209" target="_blank">Sprint 9:</a></strong> Machine Learning in Business
+                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/main/Triple%20Ten%20Projects/Sprint%209" target="_blank">Sprint 9:</a></strong> Machine Learning in Business
                 <div class="project-description">
                     <p>🛢️ Oil Well Profit Optimization – OilyGiant</p>
                     <p><strong>Python | Pandas | Scikit-learn | Linear Regression | Bootstrapping | Feature Analysis | RMSE Evaluation | Profit Simulation | Data Visualization</strong></p>
@@ -477,7 +514,7 @@
                 </div>
             </li>
             <li>
-                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/4dde0d81597947ca83d0e91ddb8462cefaacd226/Triple%20Ten%20Projects/Sprint%2010%20Gold%20Recovery" target="_blank">Sprint 10:</a></strong> Predicting Gold Recovery from Ore Processing
+                <strong><a href="https://github.com/jaygates23/4dde0d81597947ca83d0e91ddb8462cefaacd226/Triple%20Ten%20Projects/Sprint%2010%20Gold%20Recovery" target="_blank">Sprint 10:</a></strong> Predicting Gold Recovery from Ore Processing
                 <div class="project-description">
                     <p>🏆 Gold Recovery Prediction – Mining Operations Optimization</p>
                     <p><strong>Python | Pandas | Scikit-learn | CatBoost | Random Forest | XGBoost | sMAPE | Time Series Validation | Feature Engineering | Data Visualization</strong></p>
@@ -487,9 +524,18 @@
                 </div>
             </li>
             
+            <li>
+                <strong><a href="https://github.com/jaygates23/tripleten_projects/tree/841e1517127f6fff352614f77a48a18102eafab2/Triple%20Ten%20Projects/Sprint%2011%20Linear%20Algebra" target="_blank">Sprint 11:</a></strong> Linear Algebra and Privacy-Preserving Machine Learning
+                <div class="project-description">
+                    <p>🏦 Insurance Benefits and Claims Prediction – Sure Tomorrow</p>
+                    <p><strong>Python | Pandas | Scikit-learn | kNN | Logistic Regression | Linear Regression | Data Obfuscation | Privacy-Preserving ML | Feature Scaling | RMSE Evaluation | Data Visualization</strong></p>
+                    <p>This project delivered a full machine learning workflow for the Sure Tomorrow insurance company, addressing customer targeting, benefit eligibility prediction, benefit quantity forecasting, and data privacy. I implemented k-Nearest Neighbors to identify customers with similar profiles, revealing the importance of feature scaling to prevent biased neighbor selection.</p>
+                    <p>For benefit eligibility, I trained a logistic regression model that significantly outperformed a dummy baseline, providing reliable predictions for customer benefits. Using linear regression, I forecasted the number of benefits customers may receive, uncovering a highly skewed distribution where most customers received none.</p>
+                    <p>To ensure data confidentiality, I developed a matrix-based obfuscation method that preserved model accuracy. Analytical proof and testing confirmed identical RMSE values (0.363719) between original and obfuscated data, with prediction differences near zero. This project demonstrates my ability to combine predictive modeling, statistical validation, and privacy-preserving techniques to deliver actionable business insights without compromising sensitive customer information.</p>
+                </div>
+            </li>
             <li><strong>Upcoming:</strong></li>
             <ul>
-                <li><strong>Sprint 11:</strong> Linear Algebra</li>
                 <li><strong>Sprint 12:</strong> Numerical Methods</li>
                 <li><strong>Sprint 13:</strong> Time Series</li>
                 <li><strong>Sprint 14:</strong> Machine Learning for Texts</li>
@@ -497,6 +543,53 @@
                 <li><strong>Sprint 16:</strong> Unsupervised Learning</li>
                 <li><strong>Sprint 17:</strong> Final Project</li>
             </ul>
+        </ul>
+    </section>
+
+    <section id="ai-projects-books" class="section">
+        <h2>AI Projects + Books</h2>
+        <p>Explore my AI-focused projects and the books that have shaped my understanding of artificial intelligence, machine learning, and data science:</p>
+        <ul>
+            <li>
+                <strong><a href="https://github.com/jaygates23/Transformers-for-NLP-2nd-Edition.git" target="_blank">📘 1. Transformers for Natural Language Processing</a></strong>
+                <p><em>Generalization:</em> Build, train, and fine-tune deep neural network architectures for NLP with Python, Hugging Face, and OpenAI's GPT-3, ChatGPT, and GPT-4.</p>
+                <p><strong>Why first:</strong> This book establishes foundational understanding of transformers, Hugging Face models, and the inner workings of GPT-based architectures. It’s critical for grasping the models that power most modern AI systems.</p>
+            </li>
+            <li>
+                <strong><a href="https://github.com/jaygates23/Modern-Computer-Vision-with-PyTorch-2E.git" target="_blank">📗 2. Modern Computer Vision with PyTorch</a></strong>
+                <p><em>Generalization:</em> A practical roadmap from deep learning fundamentals to advanced applications and Generative AI.</p>
+                <p><strong>Why second:</strong> Computer vision complements NLP and reinforces your knowledge of deep learning, PyTorch, and practical model training. While not LLM-focused, it sharpens your understanding of architectures and model evaluation.</p>
+            </li>
+            <li>
+                <strong><a href="https://github.com/jaygates23/GenerativeAiApplicationsWithPython_Material.git" target="_blank">📙 3. Generative AI with Python (Rheinwerk Computing)</a></strong>
+                <p><em>Generalization:</em> The Developer’s Guide to Pretrained LLMs, Vector Databases, Retrieval Augmented Generation, and Agentic Systems.</p>
+                <p><strong>Why third:</strong> Builds on your transformer/NLP knowledge by introducing LLMs, RAG, vector databases, and agentic systems. This gives a broad, modern perspective on GenAI development.</p>
+            </li>
+            <li>
+                <strong><a href="https://github.com/jaygates23/building-LLMS-ragbook-notebooks.git" target="_blank">📕 4. Building LLMs for Production</a></strong>
+                <p><em>Generalization:</em> Enhancing LLM Abilities and Reliability with Prompting, Fine-Tuning, and RAG.</p>
+                <p><strong>Why fourth:</strong> Now that you know how LLMs work, this book focuses on fine-tuning, prompting, and RAG pipelines — essential for customizing and deploying models reliably.</p>
+            </li>
+            <li>
+                <strong><a href="https://github.com/jaygates23/generative_ai_with_langchain.git" target="_blank">📒 5. Generative AI with LangChain</a></strong>
+                <p><em>Generalization:</em> Build production-ready LLM applications and advanced agents using Python, LangChain, and LangGraph.</p>
+                <p><strong>Why fifth:</strong> LangChain is a dominant tool for building real-world LLM applications. Study it after you’re comfortable with RAG and LLM fundamentals so you can focus on chains, agents, and LangGraph workflows.</p>
+            </li>
+            <li>
+                <strong><a href="https://github.com/jaygates23/Modern-AI-Agents.git" target="_blank">📘 6. Building AI Agents with LLMs, RAG, and Knowledge Graphs</a></strong>
+                <p><em>Generalization:</em> A practical guide to autonomous and modern AI agents.</p>
+                <p><strong>Why sixth:</strong> This builds on LangChain and expands into knowledge graphs and autonomous agents — critical for more complex, memory-driven applications like personal assistants and decision-making tools.</p>
+            </li>
+            <li>
+                <strong><a href="https://github.com/jaygates23/Building-Agentic-AI-Systems.git" target="_blank">📕 7. Building Agentic AI Systems</a></strong>
+                <p><em>Generalization:</em> Create intelligent, autonomous AI agents that can reason, plan, and adapt.</p>
+                <p><strong>Why seventh:</strong> This goes deep into reasoning, planning, and adaptive behavior. Best studied once you have experience with RAG, agents, and production-level tools. It’s more advanced and conceptual.</p>
+            </li>
+            <li>
+                <strong><a href="https://github.com/jaygates23/AI-Engineering-Bible.git" target="_blank">📙 8. The AI Engineering Bible</a></strong>
+                <p><em>Generalization:</em> The Complete and Up-to-Date Guide to Build, Develop and Scale Production Ready AI Systems.</p>
+                <p><strong>Why last:</strong> This is the most comprehensive and production-focused book. It brings together everything: MLOps, scaling, monitoring, deployment, and infrastructure. Ideal as a capstone or reference once you’ve built a few prototypes.</p>
+            </li>
         </ul>
     </section>
 
